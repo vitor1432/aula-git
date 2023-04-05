@@ -1,4 +1,65 @@
+/*element */
+* {
+    font-family: Arial;
+}
+
 p {
     color: blue;
     padding: 59px;
+}
+/* ID */
+#main-title {
+color:crimson;
+padding: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Class*/
+.mycontent {
+    color: rgb(62, 160, 160);
+    background-color: chartreuse;
+    padding: 30px;
+}
+
+.background-defalt{
+    background-color: blueviolet;
+}
+/* Colors */
+.hexa {
+    background-color:#bcc740
+}
+
+.rgb {
+    background-color:rgb(136, 54, 54)
+}
+.color-name {
+    background-color:yellow
+}
+
+h1, h2, h3{
+    padding: 10px;
+}
+
+.sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mono {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.big-text {
+    font-size: 40px;
+}
+
+.heavy-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
 }
